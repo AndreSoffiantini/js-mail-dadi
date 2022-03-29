@@ -1,0 +1,20 @@
+div {
+    margin: 2rem 0;
+}
+
+#winner {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.success {
+    color: forestgreen;
+}
+
+.defeat {
+    color: crimson;
+}
+
+.tie {
+    color: gold;
+}
