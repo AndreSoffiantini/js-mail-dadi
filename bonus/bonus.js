@@ -30,6 +30,16 @@ function validateFunction() {
     console.log(validUser);
 
     // Stampare messaggio di esito del controllo
+    const validateResult = document.createElement("h1");
+    document.body.appendChild(validateResult);
 
+    if (validUser) {
 
+        validateResult.innerHTML = `Utente ${userMail} ammesso`;
+
+    } else if (!validUser) {
+
+        validateResult.innerHTML = `Utente ${userMail} non ammesso`;
+
+    }
 }
